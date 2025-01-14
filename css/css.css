@@ -1,4 +1,6 @@
-#bannerRibbon{
+
+section#bannerRibbon{
 background-color:orange;
 width: 80%;
+height: 50px;
 }
