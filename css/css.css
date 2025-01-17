@@ -1,6 +1,7 @@
 section.bannerRibbon{
 display:flex;
 align-content: center;
+justify-content: center;
 align-items: center;
 background-color:orange;
 width: 80%;
