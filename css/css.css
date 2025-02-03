@@ -21,5 +21,19 @@ margin-right: 0%
     background-image: url('/images/architecture-facade-house-259600');
     width: 80%;
     height: 40px;
+}
 
+section#1introduction{
+display: block;
+margin-top: 2%;
+width: 30%;
+height: 300px;
+}
+
+section#2introductionImage{
+display: block;
+background-color: orange;
+margin-top: 60px;
+width: 30%;
+height: 300px;
 }
