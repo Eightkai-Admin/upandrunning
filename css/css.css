@@ -31,6 +31,7 @@ height: 300px;
 }
 
 section#2introductionImage{
+background: fixed;
 display: flex;
 background-color: orange;
 margin-top: 60px;
