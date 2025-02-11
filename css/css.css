@@ -31,15 +31,20 @@ height: 300px;
 }
 
 section#2introductionImage{
-display: block;
+display: flex;
 background-color: orange;
 margin-top: 60px;
 width: 30%;
 height: 300px;
 }
 
+section#3subjectText{
+    display: flex;
+    float: left;
+}
+
+
 section#4subjectImage{
     display: flex;
-    height: 10px;
-    width: 10px;
+    float: right;
 }
