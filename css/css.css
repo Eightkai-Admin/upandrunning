@@ -18,7 +18,6 @@ margin-right: 0%
 
 .headerImage{
     display:flex;
-    background-image: url('/images/architecture-facade-house-259600');
     width: 80%;
     height: 40px;
 }
@@ -46,6 +45,9 @@ section#3subjectText{
 
 section#4subjectImage{
     display:flex;
+    background-size: inherit;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     height: 40px;
-}
+}S
