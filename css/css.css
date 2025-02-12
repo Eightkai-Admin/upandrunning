@@ -39,15 +39,10 @@ height: 300px;
 
 section#3subjectText{
     display: flex;
-    float: left;
 }
 
 
 section#4subjectImage{
-    display:flex;
-    background-size: inherit;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 40px;
-}S
+   display:flex;
+   float:right;
+}
