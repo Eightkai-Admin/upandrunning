@@ -45,8 +45,7 @@ section#3subjectText{
 
 
 section#4subjectImage{
-    float: right;
-    background-size: cover;
-    width: 500px;
-    height: 300px;
+    display:flex;
+    width: 80%;
+    height: 40px;
 }
