@@ -44,7 +44,8 @@ section#3subjectText{
 }
 
 
-section#4subjectImage{
+section#4subjectImage img{
     display: flex;
     float: right;
+    align-items: right;
 }
