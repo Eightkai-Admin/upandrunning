@@ -45,7 +45,6 @@ section#3subjectText{
 
 
 section#4subjectImage{
-    display: flex;
     float: right;
     width: 500px;
     height: 300px;
