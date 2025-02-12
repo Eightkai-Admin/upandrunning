@@ -43,13 +43,12 @@ section#3subjectText{
 
 
 section#4subjectImage{
-    background-color: #ffffff; /* Background color of the section */
+    background-image: url('images/Family_in_livingroom.png');
+    background-size: cover;
+    width: 600;
+    height: 500;
     padding: 20px;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
-img#image4 {
-    width: 300px; /* Change the width of the image */
-    height: 200px;
-}
+
+
