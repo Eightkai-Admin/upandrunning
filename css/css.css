@@ -43,6 +43,13 @@ section#3subjectText{
 
 
 section#4subjectImage{
-   display:flex;
-   float:right;
+    background-color: #ffffff; /* Background color of the section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+img#image4 {
+    width: 300px; /* Change the width of the image */
+    height: 200px;
 }
