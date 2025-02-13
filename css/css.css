@@ -22,21 +22,15 @@ margin-right: 0%
     height: 40px;
 }
 
-section#1introduction{
+section1introduction{
 display: block;
 margin-top: 2%;
 width: 30%;
 height: 300px;
 }
 
-#4subjectImage{
-    display:flex;
-    background-color: red;
-    height: 600px;
-    width: 400px;
 
-}
-section#2introductionImage{
+section#introductionImage{
 display: flex;
 background-color: orange;
 margin-top: 660px;
@@ -44,12 +38,18 @@ width: 600px;
 height: 300px;
 }
 
-section#3subjectText{
+section#subjectText{
     display: flex;
     width: 120px;
     height: auto;
+    background-color: red;
 }
 
-
+section.introductionIamge{
+    display:block;
+    background-color: red;
+    height: 600px;
+    width: 400px;
+}
 
 
