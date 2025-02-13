@@ -39,15 +39,15 @@ height: 300px;
 
 section#3subjectText{
     display: flex;
+    width: 120px;
+    height: auto;
 }
 
 section#4subjectImage{
-    background-image: url('../images/architecture-facade-house-259600.jpg');
-    background-size: cover;
-    width: 600;
-    height: 500;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
+    height: 600px;
+    width: 400px;
+    background-image: url('../Images/Family_in_livingroom.png');
 }
 
 
