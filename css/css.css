@@ -29,11 +29,18 @@ width: 30%;
 height: 300px;
 }
 
+#4subjectImage{
+    display:flex;
+    background-color: red;
+    height: 600px;
+    width: 400px;
+
+}
 section#2introductionImage{
 display: flex;
 background-color: orange;
-margin-top: 60px;
-width: 30%;
+margin-top: 660px;
+width: 600px;
 height: 300px;
 }
 
@@ -43,11 +50,6 @@ section#3subjectText{
     height: auto;
 }
 
-section#4subjectImage{
-    display:flex;
-    height: 600px;
-    width: 400px;
-    background-image: url('../Images/Family_in_livingroom.png');
-}
+
 
 
