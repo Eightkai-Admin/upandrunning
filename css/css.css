@@ -17,8 +17,7 @@ margin-right: 0%
 
 
 section#introduction{
-display: block;
-margin-top: 2%;
+display:flex;
 width: 30%;
 height: 300px;
 }
