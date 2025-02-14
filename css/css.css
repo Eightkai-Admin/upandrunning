@@ -16,12 +16,6 @@ margin-right: 0%
 }
 
 
-.headerImage{
-    display:flex;
-    width: 80%;
-    height: 40px;
-}
-
 section#introduction{
 display: block;
 margin-top: 2%;
@@ -29,11 +23,18 @@ width: 30%;
 height: 300px;
 }
 
+.headerImage{
+    display:flex;
+    width: 80%;
+    height: 40px;
+}
+
 
 section#introductionImage{
 display: flex;
-background-color: orange;
-width: 600px;
+background-image: url('../images/Family_in_livingroom.png');
+background-size: cover;
+width: 30%;
 height: 300px;
 }
 
