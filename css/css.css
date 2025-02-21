@@ -8,7 +8,6 @@ height: 40px;
 margin-left: 0%;
 margin-right: 0%
 }
-
 .bannerRibbon a{
     margin-left: 50px;
     margin-right: 50px;
@@ -22,6 +21,12 @@ width: 30%;
 height: 300px;
 }
 
+section#firstSection{
+display: flex;
+margin-top: 100px;
+background-color:lightgray;
+width: 1000px;
+}
 .headerImage{
     display:flex;
     width: 80%;
@@ -29,26 +34,17 @@ height: 300px;
 }
 
 
-section#introductionImage{
+section.introductionImage{
 display: flex;
+float: left;
 background-image: url('../images/Family_in_livingroom.png');
 background-size: cover;
-width: 30%;
-height: 300px;
+width: 50%;
+height: 500px;
 }
 
 section#subjectText{
     display: flex;
-    width: 120px;
+    width: 500px;
     height: auto;
-    background-color: red;
 }
-
-section.introductionIamge{
-    display:flex;
-    background-color: red;
-    height: 600px;
-    width: 400px;
-}
-
-
