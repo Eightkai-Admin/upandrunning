@@ -42,7 +42,8 @@ height: 600px;
 section.introductionImage{
 display: flex;
 float: left;
-vertical-align: auto;
+margin-top: auto;
+margin-bottom: auto;
 background-image: url('../images/Family_in_livingroom.png');
 background-size: contain;
 background-repeat: none;
