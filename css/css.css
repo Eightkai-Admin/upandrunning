@@ -34,12 +34,17 @@ vertical-align: middle;
 margin-right:auto;
 margin-left:auto;
 background-color:lightgray;
-width: 80%;
+width: 90%;
 height: 600px;
 }
-/* This is the first paragraph in the 
-first section on the left inside of the first section tag */
 
+/* this is the text on the right side in the first section*/
+section#subjectText{
+    display: flex;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 /*This is the first image on the 
 right under the main image in the first section next to the first paragram*/
@@ -49,14 +54,10 @@ float: left;
 margin-top: auto;
 margin-bottom: auto;
 background-image: url('../images/Family_in_livingroom.png');
-background-size: contain;
-background-repeat: none;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 height: 400px;
 width: 600px;
 }
 
-section#subjectText{
-    display: flex;
-    width: 500px;
-    height: auto;
-}
