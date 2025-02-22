@@ -1,3 +1,8 @@
+
+/*The next three css styles are for the top picture and the main picture on the page
+-bannerRibbon is the strip on top of the image
+-header image is the main picture at the top of the page
+*/
 section.bannerRibbon{
 display:flex;
 align-content: center;
@@ -19,13 +24,9 @@ margin-right: 0%
     height: 40px;
 }
 
-section#introduction{
-display:flex;
-vertical-align: middle;
-width: 30%;
-height: 300px;
-}
 
+/*First section under the main picture this section 
+contains the introduction and the introductionImage sections*/
 section#firstSection{
 display: flex;
 margin-top: 100px;
@@ -36,9 +37,12 @@ background-color:lightgray;
 width: 80%;
 height: 600px;
 }
+/* This is the first paragraph in the 
+first section on the left inside of the first section tag */
 
 
-
+/*This is the first image on the 
+right under the main image in the first section next to the first paragram*/
 section.introductionImage{
 display: flex;
 float: left;
