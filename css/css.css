@@ -3,6 +3,10 @@
 -bannerRibbon is the strip on top of the image
 -header image is the main picture at the top of the page
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 section.bannerRibbon{
 display:flex;
 align-content: center;
@@ -34,13 +38,15 @@ vertical-align: middle;
 margin-right:auto;
 margin-left:auto;
 background-color:lightgray;
-width: 90%;
+width: 95%;
 height: 600px;
 }
 
 /* this is the text on the right side in the first section*/
 section#subjectText{
     display: flex;
+    font-family: Inter;
+    font-size: 15pt;
     width: 500px;
     margin-top: auto;
     margin-bottom: auto;
@@ -53,11 +59,12 @@ display: flex;
 float: left;
 margin-top: auto;
 margin-bottom: auto;
+padding-left: 50px;
 background-image: url('../images/Family_in_livingroom.png');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-height: 400px;
-width: 600px;
+height: 500px;
+width: 700px;
 }
 
