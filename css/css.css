@@ -6,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
 section.bannerRibbon{
 display:flex;
 align-content: center;
@@ -24,10 +23,10 @@ margin-right: 0%
 }
 .headerImage{
     display:flex;
-    width: 80%;
+    width: 95%;
     height: 40px;
 }
-
+/*Paragraph style*/
 section p {
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -39,11 +38,12 @@ section p {
 contains the introduction and the introductionImage sections*/
 section#firstSection{
 display: flex;
+background-color: azure;
 margin-top: 40px;
 vertical-align: middle;
 margin-right:auto;
-margin-left:auto;
-width: 95%;
+margin-left:200px;
+width: 80%;
 height: 600px;
 }
 
@@ -54,24 +54,22 @@ section#subjectText{
     width: 500px;
     margin-top: auto;
     margin-bottom: auto;
-  
+    margin-left: 50px;
 }
 
 /*This is the first image on the 
 right under the main image in the first section next to the first paragram*/
 section.introductionImage{
 display: flex;
-float: left;
+float: right;
 margin-top: auto;
 margin-bottom: auto;
-margin-right:0%;
-margin-left: 170px;
+margin-right:5%;
+margin-left:auto;
 background-image: url('../images/Family_in_livingroom.png');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-height: 300px;
-width: 500px;
+height: 400px;
+width: 600px;
 }
-
-*/Paragraph style*/
