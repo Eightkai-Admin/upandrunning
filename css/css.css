@@ -38,7 +38,7 @@ section p {
 contains the introduction and the introductionImage sections*/
 section.Section{
 display: flex;
-background-color: azure;
+background-color: rgb(252, 248, 242);
 margin-top: 40px;
 vertical-align: middle;
 margin-right:auto;
