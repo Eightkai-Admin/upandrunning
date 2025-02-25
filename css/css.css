@@ -25,6 +25,7 @@ margin-right: 0%
     display:flex;
     width: 95%;
     height: 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 /*Paragraph style*/
 section p {
@@ -74,33 +75,36 @@ background-repeat: no-repeat;
 background-position: center;
 height: 500px;
 width: 700px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 section.introductionImageTwo{
-    display: flex;
-    float: right;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right:5%;
-    margin-left:auto;
-    background-image: url('../images/Personal_Assistant_helping.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 500px;
-    width: 700px;
-    }
+display: flex;
+float: right;
+margin-top: auto;
+margin-bottom: auto;
+margin-right:5%;
+margin-left:auto;
+background-image: url('../images/Personal_Assistant_helping.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 500px;
+width: 700px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
     section.introductionImageThree{
-        display: flex;
-        float: right;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right:5%;
-        margin-left:auto;
-        background-image: url('../images/worker_man_painting.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 500px;
-        width: 700px;
-        }
+display: flex;
+float: right;
+margin-top: auto;
+margin-bottom: auto;
+margin-right:5%;
+margin-left:auto;
+background-image: url('../images/worker_man_painting.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 500px;
+width: 700px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
 
