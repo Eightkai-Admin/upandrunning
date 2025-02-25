@@ -40,7 +40,7 @@ height: 600px;
 
 
 /* Imag directly under the main home page image on the right side nexted inside the first section tag*/
-section.introductionImage{
+section.introductionImageOne{
 display: flex;
 float: left;
 margin-top: auto;
@@ -50,7 +50,10 @@ background-size: contain;
 background-repeat: none;
 height: 400px;
 width: 600px;
+background-color: aliceblue;
 }
+
+
 
 section#subjectText{
     display: flex;
