@@ -60,7 +60,7 @@ section#subjectText{
 
 /*This is the first image on the 
 right under the main image in the first section next to the first paragram*/
-section.introductionImage{
+section.introductionImageOne{
 display: flex;
 float: right;
 margin-top: auto;
@@ -74,3 +74,18 @@ background-position: center;
 height: 400px;
 width: 600px;
 }
+
+section.introductionImageTwo{
+    display: flex;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:5%;
+    margin-left:auto;
+    background-image: url('../images/Family_in_livingroom.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    }
