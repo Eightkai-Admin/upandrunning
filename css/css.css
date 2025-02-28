@@ -111,4 +111,13 @@ section.introductionImageThree{
     width: 600px;
     background-color: #f0f0f0;
     box-shadow: 10px 10px 5px 0px #888888, inset 0px 0px 10px #aaaaaa;
-    }3333333
+    }
+
+
+    .ourworkTitle{
+        display: flex;
+        margin-right: auto;
+        margin-left:auto;
+        width:95%;
+    }
+    /*our work page*/
