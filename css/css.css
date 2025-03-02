@@ -1,3 +1,11 @@
+
+/*The next three css styles are for the top picture and the main picture on the page
+-bannerRibbon is the strip on top of the image
+-header image is the main picture at the top of the page
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 section.bannerRibbon{
 display:flex;
 align-content: center;
@@ -15,71 +23,101 @@ margin-right: 0%
 }
 .headerImage{
     display:flex;
-    width: 80%;
+    width: 95%;
     height: 40px;
 }
+/*Paragraph style*/
+section p {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.3;
+    text-indent: 20px;
+  }
 
-section#introduction{
-display:flex;
-vertical-align: middle;
-width: 30%;
-height: 300px;
-}
-/*This first section below the main image on the page. This section contians the introduction text and the 
-introduction image*/
-section#firstSection{
+/*First section under the main picture this section 
+contains the introduction and the introductionImage sections*/
+section.Section{
 display: flex;
-margin-top: 100px;
+background-color: azure;
+margin-top: 40px;
 vertical-align: middle;
 margin-right:auto;
 margin-left:auto;
-background-color:lightgray;
-width: 80%;
+margin-right: auto;
+width: 95%;
 height: 600px;
 }
 
-
-/* Imag directly under the main home page image on the right side nexted inside the first section tag*/
-section.introductionImage{
-display: flex;
-float: left;
-margin-top: auto;
-margin-bottom: auto;
-background-image: url('../images/Family_in_livingroom.png');
-background-size: contain;
-background-repeat: none;
-height: 400px;
-width: 600px;
-}
-
+/* this is the text on the right side in the first section*/
 section#subjectText{
     display: flex;
+    font-size: 20pt;
     width: 500px;
-    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
 }
 
-section.ourworktop{
-    display:flex;
-    margin-right:auto;
-    margin-left:auto;
-    background-color: rgb(129, 122, 160);
-    width:95%;
-    height: 300px;
+/*This is the first image on the 
+right under the main image in the first section next to the first paragram*/
+section.introductionImageOne{
+display: flex;
+float: right;
+margin-top: auto;
+margin-bottom: auto;
+margin-right:5%;
+margin-left:auto;
+background-image: url('../images/Family_in_livingroom.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 400px;
+width: 600px;
+background-color: #f0f0f0;
+box-shadow: 10px 10px 5px 0px #888888, inset 0px 0px 10px #aaaaaa;
 }
 
-section#ourworktopTitle{
+
+section.introductionImageTwo{
     display: flex;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-right:auto;
-    margin-left:auto;
-    margin-top:auto;
-    margin-bottom:auto;
-    font-size: larger;
-    width: 95%;
-}
+    margin-left:5%;
+    background-image: url('../images/Personal_Assistant_helping.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    background-color: #f0f0f0;
+    box-shadow: 10px 10px 5px 0px #888888, inset 0px 0px 10px #aaaaaa;
+    }
 
-section#ourworktopText{
+
+section.introductionImageThree{
     display: flex;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-right:auto;
-    margin-left:auto;
-    margin-top:auto;
-}
+    margin-left:5%;
+    background-image: url('../images/workers_two_men.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    background-color: #f0f0f0;
+    box-shadow: 10px 10px 5px 0px #888888, inset 0px 0px 10px #aaaaaa;
+    }
+
+
+    .ourworkTitle{
+        display: flex;
+        margin-right: auto;
+        margin-left:auto;
+        width:95%;
+    }
+    /*our work page*/
